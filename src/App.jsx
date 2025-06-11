@@ -8,10 +8,13 @@ function App() {
     email: "",
     phone: "",
     summary: "",
-    education: "",
     experience: "",
     skills: "",
+    education: [
+      { school: "", title: "", date: "" },
+    ],
   });
+
 
   return (
     <div className="container">
